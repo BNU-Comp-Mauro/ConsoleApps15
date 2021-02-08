@@ -14,6 +14,8 @@ namespace ConsoleAppProject.App01
 
         public const double METERS_IN_MILES = 1609.344;
 
+        public const double FEET_IN_METERS = 3.2808399;
+
         public const string MILES = "miles";
 
         public const string FEET = "feet";
@@ -46,8 +48,11 @@ namespace ConsoleAppProject.App01
         {
             Console.WriteLine("\nWhat units would you like to convert?: ");
             Console.WriteLine("\n1. Miles to Feet");
-            Console.WriteLine("2. Feet to Miles");
-            Console.WriteLine("3. Miles to Meters\n");
+            Console.WriteLine("2. Miles to Meters");
+            Console.WriteLine("3. Feet to Miles");
+            Console.WriteLine("4. Feet to Meters");
+            Console.WriteLine("5. Meters to Miles");
+            Console.WriteLine("6. Meters to Feet");
             string choice = Console.ReadLine();
             if (choice.Equals("1"))
             {
@@ -57,15 +62,27 @@ namespace ConsoleAppProject.App01
             }
             else if (choice.Equals("2"))
             {
+                InputMiles();
+                CalculateMeters();
+                OutputMeters();
+            }
+            else if (choice.Equals("3"))
+            {
                 InputFeet();
                 CalculateMiles();
                 OutputMiles();
             }
-            else if (choice.Equals("3"))
+            else if (choice.Equals("4"))
             {
-                InputMiles();
-                CalculateMeters();
-                OutputMeters();
+                InputFeet();
+            }
+            else if (choice.Equals("5"))
+            {
+                InputMeters();
+            }
+            else if (choice.Equals("6"))
+            {
+                InputMeters();
             }
             else
             {
@@ -84,6 +101,12 @@ namespace ConsoleAppProject.App01
             Console.Write("\nInput the number of feet > ");
             string value = Console.ReadLine();
             feet = Convert.ToDouble(value);
+        }
+        private void InputMeters()
+        {
+            Console.Write("\nInput the number of meters > ");
+            string value = Console.ReadLine();
+            meters = Convert.ToDouble(value);
         }
         /// <summary>
         /// Calculate the distance from the miles input to feet.
