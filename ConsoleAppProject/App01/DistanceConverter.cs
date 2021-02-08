@@ -30,7 +30,6 @@ namespace ConsoleAppProject.App01
         {
             OutputHeading();
             UnitChoice();
-            Run();
         }
         /// <summary>
         /// Prompt user to enter the distance in miles.
