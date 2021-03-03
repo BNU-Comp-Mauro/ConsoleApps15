@@ -1,4 +1,4 @@
-﻿using ConsoleAppProject.App01;
+﻿using ConsoleAppProject.App02;
 using System;
 
 namespace ConsoleAppProject
@@ -18,8 +18,8 @@ namespace ConsoleAppProject
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("BNU CO453 Applications Programming 2020-2021!");
 
-            DistanceConverter converter = new DistanceConverter();
-            converter.Run();
+            BMI bmi = new BMI();
+            bmi.Run();
         }
     }
 }
