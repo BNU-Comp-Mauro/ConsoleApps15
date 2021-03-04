@@ -52,7 +52,7 @@ namespace ConsoleAppProject.App01
         /// </summary>
         private void UnitChoice()
         {
-            Console.WriteLine("\nWhat units would you like to convert?: ");
+            Console.WriteLine("\nWhat units would you like to convert?");
             Console.WriteLine("\n1. Miles to Feet");
             Console.WriteLine("2. Miles to Meters");
             Console.WriteLine("3. Feet to Miles");
@@ -60,6 +60,7 @@ namespace ConsoleAppProject.App01
             Console.WriteLine("5. Meters to Miles");
             Console.WriteLine("6. Meters to Feet");
             Console.WriteLine();
+            Console.Write("Please enter your choice > ");
             string choice = Console.ReadLine();
             if (choice.Equals("1"))
             {
