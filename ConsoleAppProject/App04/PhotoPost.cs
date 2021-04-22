@@ -7,9 +7,8 @@ namespace ConsoleAppProject.App04
     /// The main part of the post consists of a photo and a caption. 
     /// Other data, such as author and time, are also stored.
     ///</summary>
-    /// <author>
-    /// Michael Kölling and David J. Barnes
-    /// @version 0.1
+    /// Mauro Duarte Nunes
+    /// 22.04.2021
     /// </author>
     public class PhotoPost : Post
     {
@@ -22,19 +21,21 @@ namespace ConsoleAppProject.App04
         ///<summary>
         /// Constructor for objects of class PhotoPost.
         ///</summary>
-        /// <param name="author">
-        /// The username of the author of this post.
-        /// </param>
-        /// <param name="caption">
-        /// A caption for the image.
-        /// </param>
-        /// <param name="filename">
-        /// The filename of the image in this post.
-        /// </param>
         public PhotoPost(String author, String filename, String caption): base(author)
         {
             this.Filename = filename;
             this.Caption = caption;
+        }
+
+        /// <summary>
+        /// Contains the schematics of the display screen.
+        /// </summary>
+        public override void Display()
+        {
+            Console.WriteLine($"    Filename: [{Filename}]");
+            Console.WriteLine($"    Caption: {Caption}");
+
+            base.Display();
         }
     }
 }
