@@ -16,7 +16,7 @@ namespace ConsoleAppProject.App04
     ///</author> 
     public class NewsFeed
     {
-        public const string AUTHOR = "Mauro";
+        public const string AUTHOR = "Mauro Nunes";
         private readonly List<Post> posts;
 
         ///<summary>
