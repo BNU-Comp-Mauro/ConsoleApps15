@@ -1,0 +1,13 @@
+D:\CO453 AppProg\ConsoleApps15\ConsoleAppProject\bin\Debug\netcoreapp3.1\ConsoleAppProject.exe
+D:\CO453 AppProg\ConsoleApps15\ConsoleAppProject\bin\Debug\netcoreapp3.1\ConsoleAppProject.deps.json
+D:\CO453 AppProg\ConsoleApps15\ConsoleAppProject\bin\Debug\netcoreapp3.1\ConsoleAppProject.runtimeconfig.json
+D:\CO453 AppProg\ConsoleApps15\ConsoleAppProject\bin\Debug\netcoreapp3.1\ConsoleAppProject.runtimeconfig.dev.json
+D:\CO453 AppProg\ConsoleApps15\ConsoleAppProject\bin\Debug\netcoreapp3.1\ConsoleAppProject.dll
+D:\CO453 AppProg\ConsoleApps15\ConsoleAppProject\bin\Debug\netcoreapp3.1\ConsoleAppProject.pdb
+D:\CO453 AppProg\ConsoleApps15\ConsoleAppProject\obj\Debug\netcoreapp3.1\ConsoleAppProject.csprojAssemblyReference.cache
+D:\CO453 AppProg\ConsoleApps15\ConsoleAppProject\obj\Debug\netcoreapp3.1\ConsoleAppProject.AssemblyInfoInputs.cache
+D:\CO453 AppProg\ConsoleApps15\ConsoleAppProject\obj\Debug\netcoreapp3.1\ConsoleAppProject.AssemblyInfo.cs
+D:\CO453 AppProg\ConsoleApps15\ConsoleAppProject\obj\Debug\netcoreapp3.1\ConsoleAppProject.csproj.CoreCompileInputs.cache
+D:\CO453 AppProg\ConsoleApps15\ConsoleAppProject\obj\Debug\netcoreapp3.1\ConsoleAppProject.dll
+D:\CO453 AppProg\ConsoleApps15\ConsoleAppProject\obj\Debug\netcoreapp3.1\ConsoleAppProject.pdb
+D:\CO453 AppProg\ConsoleApps15\ConsoleAppProject\obj\Debug\netcoreapp3.1\ConsoleAppProject.genruntimeconfig.cache
